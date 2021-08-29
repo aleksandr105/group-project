@@ -1,0 +1,60 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*direction*/
+.direction-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #000000;
+}
+.direction-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -32px;
+  margin-bottom: -32px;
+}
+.direction-item {
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+.direction-discription {
+  padding: 16px 0 0 19px;
+}
