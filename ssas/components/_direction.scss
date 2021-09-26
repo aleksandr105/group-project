@@ -1,0 +1,28 @@
+.direction {
+  padding: 64px 0;
+}
+
+.direction-text {
+  color: $color-text-black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.direction-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.direction-item {
+  border-radius: 6px;
+  border: 1px solid #d9d9de;
+}
+
+.direction-discription {
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-bottom: 13px;
+  padding-top: 16px;
+}
